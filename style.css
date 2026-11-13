@@ -121,7 +121,23 @@ header {
 
 /* ---------- TODO 3 — Le morceau en cours ---------- */
 
+.en-cours {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem auto;
+}
 
+.en-cours div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.en-cours button {
+  font-size: 2rem;
+}
 
 /* ---------- TODO 4 — Une piste de la playlist ---------- */
 
