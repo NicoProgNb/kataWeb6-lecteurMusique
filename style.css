@@ -175,20 +175,8 @@ header {
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
-  margin-top: 1rem;
+  margin-top: 12px;
 }
 
 
 /* ---------- TODO 6 — Grand écran (768px et plus) ---------- */
-
-@media (min-width: 768px) {
-  .contenu {
-    display: flex;
-    flex-direction: row;
-    margin: 1rem;
-  }
-
-  .playlist {
-    flex-grow: 1;
-  }
-}
