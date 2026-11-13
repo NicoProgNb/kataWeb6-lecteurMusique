@@ -111,7 +111,13 @@ h2 {
 
 /* ---------- TODO 2 — L'en-tête ---------- */
 
-
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
 
 /* ---------- TODO 3 — Le morceau en cours ---------- */
 
