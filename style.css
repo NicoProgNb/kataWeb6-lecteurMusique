@@ -180,3 +180,15 @@ header {
 
 
 /* ---------- TODO 6 — Grand écran (768px et plus) ---------- */
+
+@media (min-width: 768px) {
+  .contenu {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+  }
+
+  .playlist {
+    flex-grow: 1;
+  }
+}
