@@ -160,6 +160,23 @@ header {
 
 /* ---------- TODO 5 — La barre de contrôle ---------- */
 
+.progression {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.barre {
+  flex-grow: 1;
+}
+
+.boutons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 12px;
+}
 
 
 /* ---------- TODO 6 — Grand écran (768px et plus) ---------- */
